@@ -1,14 +1,15 @@
 # Introduction
+This two-part SQL Introduction Project aims to familiarize trainees with the basics of SQL, specifically DML and DDL. The first part focused on learning through an interactive exercise, where I mastered DML and DDL statements and various clause syntax. The second part involved a three-table database for a booking system. I set up the PSQL server using Docker and loaded sample data using a SQL file. I then wrote queries to simulate real-life usage of the table. Through this project, I can now create a simple booking database system and write complex constraints and queries to retrieve specific data.
+
 
 # SQL Quries
 
-###### Table Setup (DDL)
+#### Table Setup (DDL)
+For each table, we specified the column names, data types, and constraints. For example, the column "memid" is an integer and cannot be NULL.
 
-For each table. We stated the column names and the data type that will be stored, and also the constraints (ex. for memid it will be integer and it cannot be NULL)
-We have two constraints, one called members_pk, and second fk_members_recommendedby. For the PRIMARY KEY constraints, this will ensure the memid is not null and is unique. 
-The second constraints is a FOREIGN KEY constraint where the recommendedby col will reference to the memid from cd.member. This means a entry cannot be created if the recommendedby doesn't match a pre existing memid. The ON DELETE SET NULL means if the referenced value,memid, is deleted, then the recommendedby will be set to NULL to ensure data integrity. 
+We defined two constraints: "members_pk" and "fk_members_recommendedby." The PRIMARY KEY constraint "members_pk" ensures that "memid" is not null and is unique. The FOREIGN KEY constraint "fk_members_recommendedby" specifies that the "recommendedby" column references the "memid" from the "cd.members" table. This ensures that an entry cannot be created if "recommendedby" does not match an existing "memid." The "ON DELETE SET NULL" clause ensures that if the referenced "memid" is deleted, the "recommendedby" column is set to NULL, to maintain data integrity.
 
-Same case for the other two tables is just the contraints are a little different. Table two has one primary key constraints. Table two has two foreign key constraints without the delete set to null part. 
+The other two tables follow similar principles, with slight variations in constraints. Table two has one PRIMARY KEY constraint, and two FOREIGN KEY constraints without the "ON DELETE SET NULL" clause.
 CREATE TABLE cd.members
     (
        memid integer NOT NULL, 
@@ -46,6 +47,10 @@ CREATE TABLE cd.members
        CONSTRAINT fk_bookings_facid FOREIGN KEY (facid) REFERENCES cd.facilities(facid),
        CONSTRAINT fk_bookings_memid FOREIGN KEY (memid) REFERENCES cd.members(memid)
     );
+
+#### Question 1-29
+Solutions in queries.sql
+
 Reference:
 1. https://pgexercises.com/gettingstarted.html
 2. https://pgexercises.com/questions
