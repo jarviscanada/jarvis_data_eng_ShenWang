@@ -1,4 +1,4 @@
-package main.java.ca.jrvs.apps.practice;
+package ca.jrvs.apps.practice;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -22,7 +22,7 @@ public class RegexExcImp implements RegexExc{
      * @return boolean
      */
     public boolean matchIP(String ip){
-        Pattern pattern = Pattern.compile("^\\b(\\d{3}\\.){3}\\d{3}\\b$", Pattern.CASE_INSENSITIVE);
+        Pattern pattern = Pattern.compile("^\\b(\\d{3}\\.){3}\\d{3}\\b$");
         Matcher matcher = pattern.matcher(ip);
         return matcher.find();
     }
@@ -49,7 +49,7 @@ public class RegexExcImp implements RegexExc{
         System.out.println(grep.isEmptyLine("\t"));
         System.out.println(grep.isEmptyLine("      "));
         System.out.println("test codes for jpeg");
-        System.out.println(grep.matchJpeg("xxx.Jpeg")); 
+        System.out.println(grep.matchJpeg("xxx.Jpeg"));
         System.out.println(grep.matchJpeg("xxx.jpeg.xxx"));
         System.out.println(grep.matchJpeg("      .jpeg"));
         System.out.println(grep.matchJpeg("      .jpeg.xxxx"));

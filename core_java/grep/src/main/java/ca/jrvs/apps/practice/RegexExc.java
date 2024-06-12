@@ -1,4 +1,4 @@
-package main.java.ca.jrvs.apps.practice;
+package ca.jrvs.apps.practice;
 
 public interface RegexExc {
 
