@@ -59,6 +59,9 @@ public class JavaGrepImp implements JavaGrep{
                 }
             }
         }
+        for (String str : linesToWrite) {
+            logger.info(str);
+        }
         writeToFile(linesToWrite);
     }
 
