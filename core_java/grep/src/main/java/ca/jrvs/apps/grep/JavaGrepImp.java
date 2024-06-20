@@ -3,10 +3,7 @@ package ca.jrvs.apps.grep;
 import org.apache.log4j.BasicConfigurator;
 import org.slf4j.*;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -23,15 +20,12 @@ public class JavaGrepImp implements JavaGrep{
         if(args.length != 3){
             throw new IllegalArgumentException("USAGE: JavaGrep regex rootPath outFile");
         }
-
         //Use default logger config
         BasicConfigurator.configure();
-
         JavaGrepImp javaGrepImp = new JavaGrepImp();
         javaGrepImp.setRegex(args[0]);
         javaGrepImp.setRootPath(args[1]);
         javaGrepImp.setOutFile(args[2]);
-
         try{
             javaGrepImp.process();
         } catch (Exception ex){
@@ -83,11 +77,12 @@ public class JavaGrepImp implements JavaGrep{
             return fileNames;
         }
         File[] files = dir.listFiles();
-
-        if( files != null){
+        if( files != null) {
             fileNames.addAll(Arrays.asList(files));
+            return fileNames;
+        }else{
+            return Collections.emptyList();
         }
-        return fileNames;
     }
 
     /**

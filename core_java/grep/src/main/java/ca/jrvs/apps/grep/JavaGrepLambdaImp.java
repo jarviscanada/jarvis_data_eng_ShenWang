@@ -1,22 +1,14 @@
 package ca.jrvs.apps.grep;
 
-import org.apache.log4j.BasicConfigurator;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
-import java.util.function.Consumer;
 import java.util.stream.Collectors;
-import java.util.stream.DoubleStream;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 import java.io.File;
 import java.util.List;
 
 public class JavaGrepLambdaImp extends JavaGrepImp{
-
-
     @Override
     public List<String> readLines(File inputFile){
         try(BufferedReader br = new BufferedReader( new FileReader(inputFile))){

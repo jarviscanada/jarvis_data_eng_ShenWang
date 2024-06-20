@@ -1,14 +1,10 @@
 package ca.jrvs.apps.practice;
 
-import com.sun.xml.internal.ws.resources.StreamingMessages;
-
-import java.util.Collections;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
-
 import java.util.stream.Collectors;
 
 public class LambdaStreamExcImp implements LambdaStreamExc{
