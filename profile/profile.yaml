@@ -3,12 +3,12 @@ name: "Shen Wang"
 # Your GitHub repo root URL
 github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_ShenWang
 
-# Introduce yourself, your academic and professional background.
-# What excites you about the software industry and your passion. At least 80 words
-summary: xxx
+# Introduce yourself, and your academic and professional background.
+# What excites you about the software industry and your passion? At least 80 words
+summary: A dedicated software developer with experience in a wide range of technologies, acquired through hands-on training and professional experience. An academic background in computer engineering provides a strong grasp of fundamental concepts, while practical roles have honed a deep understanding of the SDLC. Passionate about using technology to address real-world challenges. The advancement from trainee to working on cutting-edge projects like AI-driven apps highlights a strong commitment to growth and innovation.
 
 # Group your skills by level.
-# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+# Your skills can be anything software-related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
@@ -28,7 +28,7 @@ skills:
     - React
     - GDB
     - Supabase
-    - PostGreSQL
+    - PostgreSQL
   # At least 5 skills
   familiar:
     - Swift
@@ -36,7 +36,7 @@ skills:
     - LangChain
     - AWS ECS
     - Docker
-    - WireShark
+    - Wireshark
     - Protractor
     - MongoDB
     - Tensorflow
@@ -46,40 +46,39 @@ skills:
 jarvis_projects:
   - name: "Cluster Monitor"
     git_url: "/linux_sql"
-    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description allows hiring managers to understand your project and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
   - name: "Grep App"
     git_url: "/core_java"
     description:
       - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+     
 
 
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Avazz"
+  - name: "Avazz (Ongoing project at Jarvis)"
     #URL is optional
-    git_url: #need ""
+    git_url: # put "" around the url 
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: Collaborated with two team members on a venture project to develop an AI app that generates financial reports based on user questions. Designed and implemented an interactive dashboard with visualization and filtering features using Next.js and Supabase API. Currently focused on training and prompting an LLM to optimize query generation for client financial inquiries.
   - name: "Smash: IOS mobile game"
     git_url:
-    description: Developed a puzzle based IOS mobile game in a group of 6, co-designed the game mechanics, coordinated tasks with artists and programmers, and set up and enforced deadlines to ensure the development pace. Reponsible for the environment generation system and in-game control UI with Unity and C#, utilizing coroutines and event buses.
+    description: Developed a puzzle-based IOS mobile game in a group of 6, co-designed the game mechanics, coordinated tasks with artists and programmers, and set up and enforce deadlines to ensure the development pace. Responsible for the environment generation system and in-game control UI with Unity and C#, utilizing coroutines and event buses.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+#The description must be more than 25 words. If your experience is not software-related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
     duration: "May 2024-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+    description: "Joined the company as a trainee and underwent comprehensive project-based training, gaining hands-on experience with various technologies, programming languages, methodologies, databases, and development tools, including MongoDB, PostgreSQL, Maven, Linux CLI, Java, and JavaScript. After two few months, advanced to a role working on a venturing project, collaborating with two team members to develop an AI app, contributing to its design and implementation."
   - title: "Embedded Software Engineer"
     company: "Beijing Spirit Technology Development Co."
     duration: "April 2023- January 2024"
@@ -87,13 +86,13 @@ professional_experience:
   - title: "RPA Developer (Intern)"
     company: "Transport Canada"
     duration: "May 2022 - March 2023"
-    description: "Worked with clients to gather workflow requirements and propose automated solutions. Developed a UiPath pipeline for file uploads and data recording, significantly reducing manual tasks and saving 133 hours per month.."
+    description: "Worked with clients to gather workflow requirements and propose automated solutions. Developed a UiPath pipeline for file uploads and data recording, significantly reducing manual tasks and saving 133 hours per month."
   - title: "Full Stack Developer (Intern)"
     company: "Morgan Stanley"
     duration: "January 2021 - April 2021"
     description: "Created a monitoring dashboard for ETL processes and integrated RESTful APIs for data exchanges and real-time updates. Improved API query performance with pagination and incremental data loading, reducing page load time by 35%. Contributed to daily scrum meetings and managed monthly deployment using Jenkins"
 
-#List of edcuation
+#List of education
 education: 
   - school_name: "University of Ottawa"
     duration: "2018-2023"
