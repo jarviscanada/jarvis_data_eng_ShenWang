@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_ShenWang
 
 # Introduce yourself, and your academic and professional background.
 # What excites you about the software industry and your passion? At least 80 words
-summary: A dedicated software developer with experience in a wide range of technologies, acquired through hands-on training and professional experience. An academic background in computer engineering provides a strong grasp of fundamental concepts, while practical roles have honed a deep understanding of the SDLC. Passionate about using technology to address real-world challenges. The advancement from trainee to working on cutting-edge projects like AI-driven apps highlights a strong commitment to growth and innovation.
+summary: A dedicated software developer with experience in a wide range of technologies, gained through hands-on training and professional roles. An academic background in computer engineering provides a strong foundation in core concepts, while practical experience has deepened understanding of the SDLC. Passionate about leveraging technology to solve real-world problems, with a demonstrated commitment to growth and innovation through projects like AI-driven applications.
 
 # Group your skills by level.
 # Your skills can be anything software-related (e.g. language, frameworks, methodologies, software, etc.).
@@ -39,82 +39,71 @@ skills:
     - Wireshark
     - Protractor
     - MongoDB
-    - Tensorflow
+    - TensorFlow
     - Unity
 
 # List of Jarvis projects
 jarvis_projects:
   - name: "Cluster Monitor"
     git_url: "/linux_sql"
-    # The project description allows hiring managers to understand your project and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description allows hiring managers to understand your project and the technologies you used (e.g., programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: "Developed an MVP for Jarvis' LCA team to monitor and record server cluster hardware status. Automated data collection of hardware specifications and resource usage using Bash scripts and cron jobs, storing data in a PostgreSQL RDBMS for analysis and resource planning. Utilized Docker for PostgreSQL provisioning and managed version control with Git."
   - name: "Grep App"
     git_url: "/core_java"
-    description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-     
-
+    description: "Reimplemented `grep` functionality using Java. Created an application that searches through a root directory based on a provided string and saves matches to a user-specified output file. Utilized Docker for distribution, developed with Maven, and optimized with Java Lambda and Stream API."
 
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
-    #project name
-  - name: "Avazz (Ongoing project at Jarvis)"
-    #URL is optional
-    git_url: # put "" around the url 
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Collaborated with two team members on a venture project to develop an AI app that generates financial reports based on user questions. Designed and implemented an interactive dashboard with visualization and filtering features using Next.js and Supabase API. Currently focused on training and prompting an LLM to optimize query generation for client financial inquiries.
-  - name: "Smash: IOS mobile game"
+  # project name
+  - name: "Smash: iOS Mobile Game"
     git_url:
-    description: Developed a puzzle-based IOS mobile game in a group of 6, co-designed the game mechanics, coordinated tasks with artists and programmers, and set up and enforce deadlines to ensure the development pace. Responsible for the environment generation system and in-game control UI with Unity and C#, utilizing coroutines and event buses.
+    description: "Developed a puzzle-based iOS mobile game in a team of 6. Co-designed game mechanics, coordinated tasks with artists and programmers, and set deadlines to ensure steady development progress. Responsible for the environment generation system and in-game control UI using Unity and C#, leveraging coroutines and event buses."
 
-#List of professional experience
-#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-#The description must be more than 25 words. If your experience is not software-related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+# List of professional experience
+# The job description allows hiring managers to understand your job and the technologies you used (e.g., programming languages, libraries, algorithms, hardware, tools, etc.).
+# The description must be more than 25 words. If your experience is not software-related, please focus on soft skills and achievements (e.g., team collaboration, problem-solving, improvements, communication).
 professional_experience:
-  #Write your Jarvis role as a professional experience rather than training.
+  # Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Avazz"
+    duration: "July 2024-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Developed an AI-powered finance assistant app MVP for retail and banking clients using Next.js, Supabase, Hugging Face, and ChatGPT. Designed and implemented interactive dashboards, integrated AI models for dynamic SQL query generation via text prompts, and applied sentiment analysis to enable real-time data retrieval and interpretation while maintaining data privacy and security."
   - title: "Software Developer"
     company: "Jarvis"
     duration: "May 2024-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Joined the company as a trainee and underwent comprehensive project-based training, gaining hands-on experience with various technologies, programming languages, methodologies, databases, and development tools, including MongoDB, PostgreSQL, Maven, Linux CLI, Java, and JavaScript. After two few months, advanced to a role working on a venturing project, collaborating with two team members to develop an AI app, contributing to its design and implementation."
+    description: "Joined as a trainee and underwent comprehensive project-based training, gaining hands-on experience with various technologies, programming languages, methodologies, databases, and development tools, including MongoDB, PostgreSQL, Maven, Linux CLI, Java, and JavaScript. After a few months, advanced to a role working on a venture project, collaborating with two team members to develop an AI app, contributing to its design and implementation."
   - title: "Embedded Software Engineer"
     company: "Beijing Spirit Technology Development Co."
-    duration: "April 2023- January 2024"
-    description: "Integrated a new MCU into existing systems, utilizing AD14 for schematic and PCB layout modifications. Developed and tested peripheral interfaces, and assisted in debugging in USB connectivity issues."
+    duration: "April 2023-January 2024"
+    description: "Integrated a new MCU into existing systems, using AD14 for schematic and PCB layout modifications. Developed and tested peripheral interfaces and assisted in debugging USB connectivity issues."
   - title: "RPA Developer (Intern)"
     company: "Transport Canada"
-    duration: "May 2022 - March 2023"
-    description: "Worked with clients to gather workflow requirements and propose automated solutions. Developed a UiPath pipeline for file uploads and data recording, significantly reducing manual tasks and saving 133 hours per month."
+    duration: "May 2022-March 2023"
+    description: "Collaborated with clients to gather workflow requirements and propose automation solutions. Developed a UiPath pipeline for file uploads and data recording, significantly reducing manual tasks and saving 133 hours per month."
   - title: "Full Stack Developer (Intern)"
     company: "Morgan Stanley"
-    duration: "January 2021 - April 2021"
-    description: "Created a monitoring dashboard for ETL processes and integrated RESTful APIs for data exchanges and real-time updates. Improved API query performance with pagination and incremental data loading, reducing page load time by 35%. Contributed to daily scrum meetings and managed monthly deployment using Jenkins"
+    duration: "January 2021-April 2021"
+    description: "Created a monitoring dashboard for ETL processes and integrated RESTful APIs for data exchange and real-time updates. Improved API query performance with pagination and incremental data loading, reducing page load time by 35%. Contributed to daily scrum meetings and managed monthly deployments using Jenkins."
 
-#List of education
+# List of education
 education: 
   - school_name: "University of Ottawa"
     duration: "2018-2023"
-    degree: "Bachelor of Applied Sciences - Computer Engineering"
+    degree: "Bachelor of Applied Science - Computer Engineering"
     department: "Faculty of Engineering"
     # optional
     awards_achievements:
-      - "2020 & 2022 Dean's list honors student"
-      - "Third and fourth year GPA: 3.7/4"
+      - "2020 & 2022 Dean's List honors"
+      - "Third and fourth-year GPA: 3.7/4"
 
-#Optional section
-#others:
-    #category
-  #- title: "Certificates"
-    #list of items
-   # bullets:
-   #   - "Udacity Machine Learning (2019)"
- # - title: "Awards"
-  #  bullets:
-   #   - "Winner"
- # - title: "Activities/Hobbies"
-  #  bullets:
-   #   - "Basketball player"
-   #   - "Competitive gaming"
-    #  - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+# Optional section
+others:
+  # category
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Boxing"
+      - "Badminton"
