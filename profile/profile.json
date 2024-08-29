@@ -2,136 +2,109 @@
   "education": [
     {
       "awards_achievements": [
-        "Scholarship",
-        "Dean's List (2015, 2016): Ut enim ad minim veniam",
-        "GPA: 3.8/4.0"
+        "2020 \u0026 2022 Dean's List honors",
+        "Third and fourth-year GPA: 3.7/4"
       ],
-      "degree": "Bachelor of Applied Sciences",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2012-2016",
-      "school_name": "XYZ university"
-    },
-    {
-      "awards_achievements": null,
-      "degree": "Master of Engineering",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2016-2018",
-      "school_name": "XYZ university"
+      "degree": "Bachelor of Applied Science - Computer Engineering",
+      "department": "Faculty of Engineering",
+      "duration": "2018-2023",
+      "school_name": "University of Ottawa"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_demo",
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_ShenWang",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
-    },
-    {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "Developed a puzzle-based iOS mobile game in a team of 6. Co-designed game mechanics, coordinated tasks with artists and programmers, and set deadlines to ensure steady development progress. Responsible for the environment generation system and in-game control UI using Unity and C#, leveraging coroutines and event buses.",
       "git_url": null,
-      "name": "Machine Learning"
+      "name": "Smash: iOS Mobile Game"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "Developed an MVP for Jarvis' LCA team to monitor and record server cluster hardware status. Automated data collection of hardware specifications and resource usage using Bash scripts and cron jobs, storing data in a PostgreSQL RDBMS for analysis and resource planning. Utilized Docker for PostgreSQL provisioning and managed version control with Git.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
     {
-      "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      ],
+      "description": "Reimplemented `grep` functionality using Java. Created an application that searches through a root directory based on a provided string and saves matches to a user-specified output file. Utilized Docker for distribution, developed with Maven, and optimized with Java Lambda and Stream API.",
       "git_url": "/core_java",
-      "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
+      "name": "Grep App"
     }
   ],
   "name": "Shen Wang",
   "others": [
     {
       "bullets": [
-        "Udacity Machine Learning (2019)"
-      ],
-      "title": "Certificates"
-    },
-    {
-      "bullets": [
-        "Winner"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
-        "Basketball player",
-        "Competitive gaming",
-        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+        "Boxing",
+        "Badminton"
       ],
       "title": "Activities/Hobbies"
     }
   ],
   "professional_experience": [
     {
-      "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2020-present",
+      "company": "Avazz",
+      "description": "Developed an AI-powered finance assistant app MVP for retail and banking clients using Next.js, Supabase, Hugging Face, and ChatGPT. Designed and implemented interactive dashboards, integrated AI models for dynamic SQL query generation via text prompts, and applied sentiment analysis to enable real-time data retrieval and interpretation while maintaining data privacy and security.",
+      "duration": "July 2024-present",
       "title": "Software Developer"
     },
     {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
+      "company": "Jarvis",
+      "description": "Joined as a trainee and underwent comprehensive project-based training, gaining hands-on experience with various technologies, programming languages, methodologies, databases, and development tools, including MongoDB, PostgreSQL, Maven, Linux CLI, Java, and JavaScript. After a few months, advanced to a role working on a venture project, collaborating with two team members to develop an AI app, contributing to its design and implementation.",
+      "duration": "May 2024-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "Beijing Spirit Technology Development Co.",
+      "description": "Integrated a new MCU into existing systems, using AD14 for schematic and PCB layout modifications. Developed and tested peripheral interfaces and assisted in debugging USB connectivity issues.",
+      "duration": "April 2023-January 2024",
+      "title": "Embedded Software Engineer"
+    },
+    {
+      "company": "Transport Canada",
+      "description": "Collaborated with clients to gather workflow requirements and propose automation solutions. Developed a UiPath pipeline for file uploads and data recording, significantly reducing manual tasks and saving 133 hours per month.",
+      "duration": "May 2022-March 2023",
+      "title": "RPA Developer (Intern)"
+    },
+    {
+      "company": "Morgan Stanley",
+      "description": "Created a monitoring dashboard for ETL processes and integrated RESTful APIs for data exchange and real-time updates. Improved API query performance with pagination and incremental data loading, reducing page load time by 35%. Contributed to daily scrum meetings and managed monthly deployments using Jenkins.",
+      "duration": "January 2021-April 2021",
+      "title": "Full Stack Developer (Intern)"
     }
   ],
   "skills": {
     "competent": [
-      "Donec",
-      "fermentum",
-      "Donec",
-      "fermentum",
-      "Donec"
+      "C#",
+      "Java",
+      "Next.js",
+      "React",
+      "GDB",
+      "Supabase",
+      "PostgreSQL"
     ],
     "familiar": [
-      "Donec",
-      "fermentum",
-      "fermentum",
-      "fermentum",
-      "fermentum"
+      "Swift",
+      "Jenkins",
+      "LangChain",
+      "AWS ECS",
+      "Docker",
+      "Wireshark",
+      "Protractor",
+      "MongoDB",
+      "TensorFlow",
+      "Unity"
     ],
     "proficient": [
-      "Java",
+      "Python",
       "Linux/Bash",
       "RDBMS/SQL",
       "Agile/Scrum",
-      "Git"
+      "Git",
+      "TypeScript/JavaScript",
+      "C/C++",
+      "Tailwind CSS"
     ]
   },
-  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit."
+  "summary": "A dedicated software developer with experience in a wide range of technologies, gained through hands-on training and professional roles. An academic background in computer engineering provides a strong foundation in core concepts, while practical experience has deepened understanding of the SDLC. Passionate about leveraging technology to solve real-world problems, with a demonstrated commitment to growth and innovation through projects like AI-driven applications."
 }
