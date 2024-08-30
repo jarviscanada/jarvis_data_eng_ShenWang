@@ -1,0 +1,110 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "2020 \u0026 2022 Dean's List honors",
+        "Third and fourth-year GPA: 3.7/4"
+      ],
+      "degree": "Bachelor of Applied Science - Computer Engineering",
+      "department": "Faculty of Engineering",
+      "duration": "2018-2023",
+      "school_name": "University of Ottawa"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_ShenWang",
+  "highlighted_projects": [
+    {
+      "description": "Developed a puzzle-based iOS mobile game in a team of 6. Co-designed game mechanics, coordinated tasks with artists and programmers, and set deadlines to ensure steady development progress. Responsible for the environment generation system and in-game control UI using Unity and C#, leveraging coroutines and event buses.",
+      "git_url": null,
+      "name": "Smash: iOS Mobile Game"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Developed an MVP for Jarvis' LCA team to monitor and record server cluster hardware status. Automated data collection of hardware specifications and resource usage using Bash scripts and cron jobs, storing data in a PostgreSQL RDBMS for analysis and resource planning. Utilized Docker for PostgreSQL provisioning and managed version control with Git.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": "Reimplemented `grep` functionality using Java. Created an application that searches through a root directory based on a provided string and saves matches to a user-specified output file. Utilized Docker for distribution, developed with Maven, and optimized with Java Lambda and Stream API.",
+      "git_url": "/core_java",
+      "name": "Grep App"
+    }
+  ],
+  "name": "Shen Wang",
+  "others": [
+    {
+      "bullets": [
+        "Boxing",
+        "Badminton"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Avazz",
+      "description": "Developed an AI-powered finance assistant app MVP for retail and banking clients using Next.js, Supabase, Hugging Face, and ChatGPT. Designed and implemented interactive dashboards, integrated AI models for dynamic SQL query generation via text prompts, and applied sentiment analysis to enable real-time data retrieval and interpretation while maintaining data privacy and security.",
+      "duration": "July 2024-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "Jarvis",
+      "description": "Joined as a trainee and underwent comprehensive project-based training, gaining hands-on experience with various technologies, programming languages, methodologies, databases, and development tools, including MongoDB, PostgreSQL, Maven, Linux CLI, Java, and JavaScript. After a few months, advanced to a role working on a venture project, collaborating with two team members to develop an AI app, contributing to its design and implementation.",
+      "duration": "May 2024-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "Beijing Spirit Technology Development Co.",
+      "description": "Integrated a new MCU into existing systems, using AD14 for schematic and PCB layout modifications. Developed and tested peripheral interfaces and assisted in debugging USB connectivity issues.",
+      "duration": "April 2023-January 2024",
+      "title": "Embedded Software Engineer"
+    },
+    {
+      "company": "Transport Canada",
+      "description": "Collaborated with clients to gather workflow requirements and propose automation solutions. Developed a UiPath pipeline for file uploads and data recording, significantly reducing manual tasks and saving 133 hours per month.",
+      "duration": "May 2022-March 2023",
+      "title": "RPA Developer (Intern)"
+    },
+    {
+      "company": "Morgan Stanley",
+      "description": "Created a monitoring dashboard for ETL processes and integrated RESTful APIs for data exchange and real-time updates. Improved API query performance with pagination and incremental data loading, reducing page load time by 35%. Contributed to daily scrum meetings and managed monthly deployments using Jenkins.",
+      "duration": "January 2021-April 2021",
+      "title": "Full Stack Developer (Intern)"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "C#",
+      "Java",
+      "Next.js",
+      "React",
+      "GDB",
+      "Supabase",
+      "PostgreSQL"
+    ],
+    "familiar": [
+      "Swift",
+      "Jenkins",
+      "LangChain",
+      "AWS ECS",
+      "Docker",
+      "Wireshark",
+      "Protractor",
+      "MongoDB",
+      "TensorFlow",
+      "Unity"
+    ],
+    "proficient": [
+      "Python",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git",
+      "TypeScript/JavaScript",
+      "C/C++",
+      "Tailwind CSS"
+    ]
+  },
+  "summary": "A dedicated software developer with experience in a wide range of technologies, gained through hands-on training and professional roles. An academic background in computer engineering provides a strong foundation in core concepts, while practical experience has deepened understanding of the SDLC. Passionate about leveraging technology to solve real-world problems, with a demonstrated commitment to growth and innovation through projects like AI-driven applications."
+}

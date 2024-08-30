@@ -1,0 +1,109 @@
+# Preferred name (Characters only)
+name: "Shen Wang"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_ShenWang
+
+# Introduce yourself, and your academic and professional background.
+# What excites you about the software industry and your passion? At least 80 words
+summary: A dedicated software developer with experience in a wide range of technologies, gained through hands-on training and professional roles. An academic background in computer engineering provides a strong foundation in core concepts, while practical experience has deepened understanding of the SDLC. Passionate about leveraging technology to solve real-world problems, with a demonstrated commitment to growth and innovation through projects like AI-driven applications.
+
+# Group your skills by level.
+# Your skills can be anything software-related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Python
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+    - TypeScript/JavaScript
+    - C/C++
+    - Tailwind CSS
+  # At least 5 skills
+  competent:
+    - C#
+    - Java
+    - Next.js
+    - React
+    - GDB
+    - Supabase
+    - PostgreSQL
+  # At least 5 skills
+  familiar:
+    - Swift
+    - Jenkins
+    - LangChain
+    - AWS ECS
+    - Docker
+    - Wireshark
+    - Protractor
+    - MongoDB
+    - TensorFlow
+    - Unity
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and the technologies you used (e.g., programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Developed an MVP for Jarvis' LCA team to monitor and record server cluster hardware status. Automated data collection of hardware specifications and resource usage using Bash scripts and cron jobs, storing data in a PostgreSQL RDBMS for analysis and resource planning. Utilized Docker for PostgreSQL provisioning and managed version control with Git."
+  - name: "Grep App"
+    git_url: "/core_java"
+    description: "Reimplemented `grep` functionality using Java. Created an application that searches through a root directory based on a provided string and saves matches to a user-specified output file. Utilized Docker for distribution, developed with Maven, and optimized with Java Lambda and Stream API."
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+  # project name
+  - name: "Smash: iOS Mobile Game"
+    git_url:
+    description: "Developed a puzzle-based iOS mobile game in a team of 6. Co-designed game mechanics, coordinated tasks with artists and programmers, and set deadlines to ensure steady development progress. Responsible for the environment generation system and in-game control UI using Unity and C#, leveraging coroutines and event buses."
+
+# List of professional experience
+# The job description allows hiring managers to understand your job and the technologies you used (e.g., programming languages, libraries, algorithms, hardware, tools, etc.).
+# The description must be more than 25 words. If your experience is not software-related, please focus on soft skills and achievements (e.g., team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  # Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Avazz"
+    duration: "July 2024-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Developed an AI-powered finance assistant app MVP for retail and banking clients using Next.js, Supabase, Hugging Face, and ChatGPT. Designed and implemented interactive dashboards, integrated AI models for dynamic SQL query generation via text prompts, and applied sentiment analysis to enable real-time data retrieval and interpretation while maintaining data privacy and security."
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "May 2024-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Joined as a trainee and underwent comprehensive project-based training, gaining hands-on experience with various technologies, programming languages, methodologies, databases, and development tools, including MongoDB, PostgreSQL, Maven, Linux CLI, Java, and JavaScript. After a few months, advanced to a role working on a venture project, collaborating with two team members to develop an AI app, contributing to its design and implementation."
+  - title: "Embedded Software Engineer"
+    company: "Beijing Spirit Technology Development Co."
+    duration: "April 2023-January 2024"
+    description: "Integrated a new MCU into existing systems, using AD14 for schematic and PCB layout modifications. Developed and tested peripheral interfaces and assisted in debugging USB connectivity issues."
+  - title: "RPA Developer (Intern)"
+    company: "Transport Canada"
+    duration: "May 2022-March 2023"
+    description: "Collaborated with clients to gather workflow requirements and propose automation solutions. Developed a UiPath pipeline for file uploads and data recording, significantly reducing manual tasks and saving 133 hours per month."
+  - title: "Full Stack Developer (Intern)"
+    company: "Morgan Stanley"
+    duration: "January 2021-April 2021"
+    description: "Created a monitoring dashboard for ETL processes and integrated RESTful APIs for data exchange and real-time updates. Improved API query performance with pagination and incremental data loading, reducing page load time by 35%. Contributed to daily scrum meetings and managed monthly deployments using Jenkins."
+
+# List of education
+education: 
+  - school_name: "University of Ottawa"
+    duration: "2018-2023"
+    degree: "Bachelor of Applied Science - Computer Engineering"
+    department: "Faculty of Engineering"
+    # optional
+    awards_achievements:
+      - "2020 & 2022 Dean's List honors"
+      - "Third and fourth-year GPA: 3.7/4"
+
+# Optional section
+others:
+  # category
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Boxing"
+      - "Badminton"
