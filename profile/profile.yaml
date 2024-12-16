@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_ShenWang
 
 # Introduce yourself, and your academic and professional background.
 # What excites you about the software industry and your passion? At least 80 words
-summary: A dedicated software developer with experience in a wide range of technologies, gained through hands-on training and professional roles. An academic background in computer engineering provides a strong foundation in core concepts, while practical experience has deepened understanding of the SDLC. Passionate about leveraging technology to solve real-world problems, with a demonstrated commitment to growth and innovation through projects like AI-driven applications.
+summary: Passionate and dedicated software engineer with a solid foundation in computer engineering and diverse hands-on experience across technologies. Demonstrates a strong commitment to continuous improvement in technical expertise, business acumen, leadership, and communication skills. Focused on leveraging technology to solve real-world challenges while evolving as a well-rounded professional capable of bridging technical and non-technical domains.
 
 # Group your skills by level.
 # Your skills can be anything software-related (e.g. language, frameworks, methodologies, software, etc.).
@@ -13,13 +13,15 @@ skills:
   # At least 5 skills
   proficient:
     - Python
+    - Langgraph/Langchain
+    - Pyspark
     - Linux/Bash
-    - RDBMS/SQL
+    - RDBMS/PSQL
     - Agile/Scrum
     - Git
     - TypeScript/JavaScript
-    - C/C++
     - Tailwind CSS
+    - AWS EC2, RDS, Bedrock
   # At least 5 skills
   competent:
     - C#
@@ -27,14 +29,16 @@ skills:
     - Next.js
     - React
     - GDB
+    - Kafka
+    - Databricks
+    - Pandas
+    - Numpy
     - Supabase
-    - PostgreSQL
+    - C/C++
   # At least 5 skills
   familiar:
     - Swift
     - Jenkins
-    - LangChain
-    - AWS ECS
     - Docker
     - Wireshark
     - Protractor
@@ -44,6 +48,9 @@ skills:
 
 # List of Jarvis projects
 jarvis_projects:
+  - name: "Real-Time Stock Data Pipeline"
+    git_url: "/stock_pipeline"
+    description: "Designed and implemented a real-time stock data pipeline using Kafka (Dockerized broker cluster) and PySpark. Built a Python producer (WebSocket connected to a stock data API) and consumer to stream data into Kafka, then performed 5-minute moving average calculations using PySpark for real-time analytics."
   - name: "Cluster Monitor"
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and the technologies you used (e.g., programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -68,9 +75,9 @@ professional_experience:
   # Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Avazz"
-    duration: "July 2024-present"
+    duration: "July 2024-December 2024"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Developed an AI-powered finance assistant app MVP for retail and banking clients using Next.js, Supabase, Hugging Face, and ChatGPT. Designed and implemented interactive dashboards, integrated AI models for dynamic SQL query generation via text prompts, and applied sentiment analysis to enable real-time data retrieval and interpretation while maintaining data privacy and security."
+    description: "Collaborated within a three-person team to develop an AI-powered data analytics application designed to streamline data consumption by enabling natural language interaction with an AI agent. Independently designed and implemented a data analytics agent workflow using LangGraph and Python, allowing the AI agent to process user questions, generate SQL queries, execute them, and analyze the retrieved data. Integrated asynchronous logic to support concurrent multi-intent question processing. Programmed interactive dashboards to fetch and display insurance data in formats such as pie and line charts, utilizing SQL and TypeScript with server-side rendering (SSR) to enhance security and scalability, and incorporated a Hugging Face transformer model for sentiment analysis. Supported the team by setting up and configuring scalable and robust cloud solutions using AWS RDS and EC2, and leveraging Linux environments to deploy APIs and services. Additionally, explored and tested open-source machine learning models on platforms like Hugging Face, RunPod, and AWS Bedrock, utilizing cloud computing resources to evaluate their potential integration into the project."
   - title: "Software Developer"
     company: "Jarvis"
     duration: "May 2024-present"
@@ -105,5 +112,5 @@ others:
   # category
   - title: "Activities/Hobbies"
     bullets:
-      - "Boxing"
       - "Badminton"
+      - "Reading"
